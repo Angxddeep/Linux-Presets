@@ -8,6 +8,10 @@ if [ -f /usr/bin/fastfetch ]; then
 	fastfetch
 fi
 
+#alias
+alias f='fastfetch'
+alias update='sudo dnf update && flatpak update'
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -193,8 +197,6 @@ alias h="history | grep "
 alias p="ps aux | grep "
 alias topcpu="/bin/ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10"
 
-# Search files in the current folder
-alias f="find . | grep "
 
 # Count all files (recursively) in the current folder
 alias countfiles="for t in files links directories; do echo \`find . -type \${t:0:1} | wc -l\` \$t; done 2> /dev/null"

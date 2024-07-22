@@ -16,12 +16,12 @@ import = [
 [window]
 title = "Alacritty"
 blur = true
-opacity = 0.85
+opacity = 0.80
 padding.x = 5
 padding.y = 5
 
 [window.dimensions]
-columns = 120
+columns = 110
 lines = 28
 
 [cursor.style]
@@ -39,7 +39,7 @@ TERM = "xterm-256color"
 #glyph_offset = { x = 1, y = 0 }
 normal.family = "CodeNewRoman Nerd Font"
 normal.style = "Regular"
-size = 16.0
+size = 13.0
 
 [font.bold]
 family = "CodeNewRoman Nerd Font"

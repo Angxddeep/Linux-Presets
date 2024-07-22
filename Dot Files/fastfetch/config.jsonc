@@ -25,7 +25,6 @@
     },
     {
       "type": "packages",
-      "format": "{} (pacman)",
       "key": " ├ 󰏖 ",
       "keyColor": "31",
     },
@@ -69,7 +68,7 @@
     {
       "type": "cpu",
       "format": "{1} ({3}) @ {7} GHz",
-      "key": " ├  ",
+      "key": "OS ",
       "keyColor": "33",
     },
     {
