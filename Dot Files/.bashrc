@@ -10,7 +10,7 @@ fi
 
 #alias
 alias f='fastfetch'
-alias update='sudo dnf update && flatpak update'
+alias update='ratemirrors arch && paru -Syyu && flatpak update'
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
