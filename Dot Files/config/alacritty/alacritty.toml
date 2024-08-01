@@ -15,11 +15,11 @@ import = [
 
 [window]
 title = "Alacritty"
-blur = true
-opacity = 0.80
+blur = false
+opacity = 0.88
 padding.x = 5
 padding.y = 5
-
+startup_mode = "Maximized"
 [window.dimensions]
 columns = 110
 lines = 28
