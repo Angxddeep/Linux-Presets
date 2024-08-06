@@ -1,0 +1,1 @@
+flatpak install com.github.tchx84.Flatseal com.obsproject.Studio com.protonvpn.www com.vscodium.codium io.github.shiftey.Desktop md.obsidian.Obsidian org.gimp.GIMP org.libreoffice.LibreOffice org.qbittorrent.qBittorrent org.signal.Signal org.telegram.desktop org.torproject.torbrowser-launcher org.videolan.VLC
