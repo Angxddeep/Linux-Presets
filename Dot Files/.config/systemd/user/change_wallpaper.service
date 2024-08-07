@@ -1,0 +1,5 @@
+[Unit]
+Description=Change wallpaper
+
+[Service]
+ExecStart=/home/angad/Projects/Github/Linux-Presets/Dot Files/.config/hypr/hyprpaper.sh
