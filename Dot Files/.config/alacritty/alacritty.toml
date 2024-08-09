@@ -1,22 +1,11 @@
 live_config_reload = true
 working_directory = "None"
 
-# Themes --
-import = [ 
-  # -- Themes --
-  #"~/.config/alacritty/catppuccin-macchiato.toml", 
-  "~/.config/alacritty/nordic.toml", 
-  # "~/.config/alacritty/xcad.toml",
-  # "~/.config/alacritty/dracula.toml",
-  # "~/.config/alacritty/catppuccin-mocha.toml",
-  # "~/.config/alacritty/solarized_dark.toml",
-  # "~/.config/alacritty/solarized-osaka.toml",
-]
 
 [window]
 title = "Alacritty"
-blur = false
-opacity = 0.88
+blur = true
+opacity = 0.93
 padding.x = 5
 padding.y = 5
 startup_mode = "Maximized"
