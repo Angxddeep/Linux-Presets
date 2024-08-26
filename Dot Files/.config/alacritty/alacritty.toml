@@ -10,7 +10,7 @@ padding.x = 5
 padding.y = 5
 [window.dimensions]
 columns = 110
-lines = 29
+lines = 31
 
 [cursor.style]
 shape= "Beam"
