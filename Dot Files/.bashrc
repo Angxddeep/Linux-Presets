@@ -10,7 +10,7 @@ fi
 
 #alias
 alias fa='fastfetch'
-alias update='sudo dnf update && flatpak update'
+alias update='sudo dnf update --refresh && flatpak update'
 
 
 # Source global definitions
