@@ -6,5 +6,5 @@ nmcli connection modify "Airtel_GPL3_5G" ipv6.ignore-auto-dns yes
 nmcli connection down "Airtel_GPL3_5G"
 nmcli connection up "Airtel_GPL3_5G"
 
-flatpak install com.github.tchx84.Flatseal com.obsproject.Studio com.protonvpn.www com.vscodium.codium io.github.shiftey.Desktop md.obsidian.Obsidian org.gimp.GIMP org.libreoffice.LibreOffice org.qbittorrent.qBittorrent org.signal.Signal org.telegram.desktop org.videolan.VLC org.kde.kdenlive im.riot.Riot
+flatpak install com.github.tchx84.Flatseal com.obsproject.Studio com.vscodium.codium io.github.shiftey.Desktop md.obsidian.Obsidian org.gimp.GIMP org.libreoffice.LibreOffice org.qbittorrent.qBittorrent org.signal.Signal org.telegram.desktop org.videolan.VLC org.kde.kdenlive im.riot.Riot
 
