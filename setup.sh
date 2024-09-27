@@ -29,8 +29,9 @@ flatpak install -y com.bitwarden.desktop \
                     org.videolan.VLC \
                     im.riot.Riot \
                     com.brave.Browser \
-                    com.discordapp.Discord
-
+                    com.discordapp.Discord \
+                    network.loki.Session
+                        
 # Install DNF packages
 sudo dnf install -y alacritty \
                     android-tools \
@@ -46,6 +47,8 @@ sudo dnf install -y alacritty \
                     htop \
                     neovim \
                     rust \
-                    zoxide
+                    zoxide \
+                    trash-cli \
+                    plasma-browser-integration
 
 echo "All tasks completed!"
