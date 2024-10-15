@@ -30,8 +30,13 @@ flatpak install -y com.bitwarden.desktop \
                     im.riot.Riot \
                     com.brave.Browser \
                     com.discordapp.Discord \
-                    network.loki.Session
-                        
+                    network.loki.Session \
+                    org.fedoraproject.MediaWriter \
+                    io.missioncenter.MissionCenter \
+                    io.mpv.Mpv \
+                    com.valvesoftware.Steam \
+                    dev.zed.Zed
+                                           
 # Install DNF packages
 sudo dnf install -y alacritty \
                     android-tools \
