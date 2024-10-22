@@ -34,7 +34,8 @@ flatpak install -y com.bitwarden.desktop \
                     org.fedoraproject.MediaWriter \
                     io.missioncenter.MissionCenter \
                     io.mpv.Mpv \
-                    com.valvesoftware.Steam
+                    com.valvesoftware.Steam \
+                    org.mozilla.Thunderbird
                                            
 # Install DNF packages
 sudo dnf install -y alacritty \
