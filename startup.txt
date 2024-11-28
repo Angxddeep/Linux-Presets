@@ -10,4 +10,6 @@ flatpak install com.bitwarden.desktop com.github.tchx84.Flatseal com.obsproject.
 
 sudo dnf install alacritty android-tools bat btop cargo dialog epson-inkjet-printer-escpr fastfetch gh git htop neovim rust zoxide trash-cli plasma-browser-integration golang
 
+sudo cp /DNF/dnf.conf /etc/dnf/
+
 
