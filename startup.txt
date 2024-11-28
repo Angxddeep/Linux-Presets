@@ -6,7 +6,7 @@ nmcli connection modify "WIFI" ipv6.ignore-auto-dns yes
 nmcli connection down "WIFI"
 nmcli connection up "WIFI"
 
-flatpak install com.bitwarden.desktop com.github.tchx84.Flatseal com.obsproject.Studio com.protonvpn.www io.github.shiftey.Desktop io.github.thaunknown.miru md.obsidian.Obsidian org.gimp.GIMP org.kde.kdenlive org.libreoffice.LibreOffice org.localsend.localsend_app org.qbittorrent.qBittorrent org.signal.Signal org.telegram.desktop org.torproject.torbrowser-launcher org.videolan.VLC im.riot.Riot com.brave.Browser com.discordapp.Discord io.missioncenter.MissionCenter
+flatpak install com.bitwarden.desktop com.github.tchx84.Flatseal com.obsproject.Studio com.protonvpn.www io.github.shiftey.Desktop io.github.thaunknown.miru md.obsidian.Obsidian org.gimp.GIMP org.kde.kdenlive org.libreoffice.LibreOffice org.localsend.localsend_app org.qbittorrent.qBittorrent org.signal.Signal org.telegram.desktop org.torproject.torbrowser-launcher org.videolan.VLC im.riot.Riot com.brave.Browser com.discordapp.Discord io.missioncenter.MissionCenter com.jetbrains.PyCharm-Community com.jetbrains.IntelliJ-IDEA-Community com.visualstudio.code
 
 sudo dnf install alacritty android-tools bat btop cargo dialog epson-inkjet-printer-escpr fastfetch gh git htop neovim rust zoxide trash-cli plasma-browser-integration golang
 
